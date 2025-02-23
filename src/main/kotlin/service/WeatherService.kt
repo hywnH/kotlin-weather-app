@@ -6,7 +6,7 @@ import org.example.util.HttpClient
 import org.example.util.JsonParser
 
 object WeatherService {
-    private const val API_KEY = "cfa352de6f843d53c33d42f32f75c4b3"
+    private const val API_KEY = "***"
     private const val GEOCODE_BASE_URL = "http://api.openweathermap.org/geo/1.0/direct"
     private const val WEATHER_BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
     suspend fun getWeather(city: String): WeatherResponse {
